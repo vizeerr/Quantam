@@ -1,0 +1,64 @@
+.tabHead{
+    font-size: 3em;
+    
+    font-family: 'Sf pro display', sans-serif;
+}
+
+.tabHead span{
+    transition: 0.3s ease-in-out;
+    text-shadow: 2px 2px 1px #53baff;
+}
+
+
+.tabHead span:hover{
+    color: #53baff;
+    text-decoration: none;
+    text-shadow: 0 0 0 #53baff;
+}
+
+.block{
+    width: 56px;
+    height: 4px;
+    margin-right: 40px;
+    background-color: #61baff;
+}
+
+.logos img{
+    width: 35px;
+    height: 35px;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.logos img:hover{
+    scale: 1.2;
+}
+
+.socio-ico img{
+    width: 28px;
+    height: 28px;
+}
+
+.load-hidden {
+    visibility: hidden;
+}
+
+#imgblock{
+    opacity: 0;
+    position: relative;
+    top: 50px;
+}
+
+#textblock{
+    opacity: 0;
+    position: relative;
+    top: 50px;
+}
+
+#bigimg{
+   transform: translate(0px, 24em);
+}
+
+#bgchange{
+    background: #00000000;
+}
